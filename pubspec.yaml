@@ -1,0 +1,30 @@
+name: fry_downloader
+description: "High-performance media downloader powered by yt-dlp"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_rust_bridge: ^2.9.0
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  shared_preferences: ^2.3.4
+  path_provider: ^2.1.5
+  file_picker: ^8.1.7
+  intl: ^0.20.1
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.1
+  flutter_rust_bridge: ^2.9.0
+
+flutter:
+  uses-material-design: true
